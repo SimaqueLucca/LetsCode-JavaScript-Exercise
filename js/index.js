@@ -89,8 +89,6 @@ function main(dataParam) {
     // infoPerState
     const arrStates = [...stateCount(arrStudents)]
     dataReturn["infosPerState"] = infoPerState(arrStudents, arrStates)
-
-    console.log(JSON.stringify(dataReturn));
 }
 
 function stateCount(arrParam) {
