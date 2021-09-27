@@ -84,14 +84,15 @@ function main(dataParam) {
     dataReturn["total"] = arrStudents.length
 
     // stateCount
-    dataReturn["stateCount"] = stateCount(arrStudents).length
+    dataReturn["stateCount"] = distinctStates(arrStudents).length
 
     // infoPerState
-    const arrStates = [...stateCount(arrStudents)]
+    const arrStates = [...distinctStates(arrStudents)]
     dataReturn["infosPerState"] = infoPerState(arrStudents, arrStates)
+    return dataReturn
 }
 
-function stateCount(arrParam) {
+function distinctStates(arrParam) {
     let arrStates = []
 
     arrParam.forEach(item => {
@@ -130,7 +131,8 @@ function infoPerState(arrParam, arrStatesParam) {
     mainArrInfoState.push(infoState)
 
     return mainArrInfoState
+
 }
 
 
-main(data)
+console.log(main(data))
