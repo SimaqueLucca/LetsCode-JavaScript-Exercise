@@ -1,0 +1,60 @@
+{
+    "total": 53,
+    "stateCount": 13,
+    "infosPerState": [
+        {
+            "SP": {
+                "totalStudents": 10,
+                "avegareAge": "25"
+            },
+            "SC": {
+                "totalStudents": 1,
+                "avegareAge": "27"
+            },
+            "CE": {
+                "totalStudents": 4,
+                "avegareAge": "25"
+            },
+            "BA": {
+                "totalStudents": 4,
+                "avegareAge": "27"
+            },
+            "PE": {
+                "totalStudents": 4,
+                "avegareAge": "26"
+            },
+            "RN": {
+                "totalStudents": 1,
+                "avegareAge": "19"
+            },
+            "MG": {
+                "totalStudents": 3,
+                "avegareAge": "25"
+            },
+            "PB": {
+                "totalStudents": 1,
+                "avegareAge": "19"
+            },
+            "RJ": {
+                "totalStudents": 9,
+                "avegareAge": "27"
+            },
+            "GO": {
+                "totalStudents": 1,
+                "avegareAge": "24"
+            },
+            "PR": {
+                "totalStudents": 1,
+                "avegareAge": "32"
+            },
+            "DF": {
+                "totalStudents": 1,
+                "avegareAge": "30"
+            },
+            "RS": {
+                "totalStudents": 2,
+                "avegareAge": "18"
+            }
+        }
+    ]
+}
